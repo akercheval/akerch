@@ -1,6 +1,10 @@
 $(document).ready(function() {
     $("#Lato").click(function() {
-        $('#Header').css("font-family", "Lato");
+        localStorage.setItem("head", "Lato");
+        localStorage.setItem("body", "Inconsolata");
+//        $('#Header').css("font-family", "Lato");
+//        $('#Body').css("font-family", "Inconsolata");
+        window.location = "hello.html";
     });
     $("#Inconsolata").click(function() {
         $('#Header').css("font-family", "Inconsolata");
