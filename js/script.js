@@ -2,8 +2,8 @@ $(document).ready(function() {
     $("#Lato").click(function() {
         $('#Header').css("font-family", "Lato");
     });
-    $("#Verdana").click(function() {
-        $('#Header').css("font-family", "Verdana");
+    $("#Inconsolata").click(function() {
+        $('#Header').css("font-family", "Inconsolata");
     });
     $("#Impact").click(function() {
         $('#Header').css("font-family", "Impact");

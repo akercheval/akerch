@@ -2,10 +2,3 @@
     font-family: Helvetica Neue;
     src: url("HelveticaNeueLTPro-Roman.otf");
 }
-@font-face {
-    font-family: Lato;
-    src: url("Lato-Regular.ttf");
-}
-#Header {
-    /*font-family: "Lato";*/
-}
