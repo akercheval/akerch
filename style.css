@@ -1,4 +1,36 @@
 @font-face {
-    font-family: Helvetica Neue;
-    src: url("HelveticaNeueLTPro-Roman.otf");
+    font-family: HelveticaBold;
+    src: url("HelveticaBold.ttf");
+}
+@font-face {
+    font-family: Inconsolata-dz;
+    src: url("Inconsolata-dz.otf");
+}
+@font-face {
+    font-family: Proxima;
+    src: url("Proxima.otf");
+}
+#Helvetica {
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+#Garamond {
+    font-family: "Garamond";
+}
+#RobotoLight {
+    font-family: "Roboto";
+    font-weight: 100;
+}
+#Roboto {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+#Inconsolata-dz {
+    font-family: "Inconsolata-dz";
+}
+#Proxima {
+    font-family: "Proxima";
+}
+#Georgia {
+    font-family: "Georgia";
 }
