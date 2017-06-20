@@ -2,12 +2,12 @@
 <html>
     <head>
         <title>Change Fonts</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,500">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -16,62 +16,49 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Pick a font combo for your website experience.</h1>
-        <h3>These are some of my favorites.</h3>
-        <div class="container">
-            <button type="button" class="btn">
-                <h2 id="Helvetica" >Titles in Helvetica Bold</h2>
-                <p id="Garamond">Bodies in Garamond (a classic combo for the ages)</p>
-            </button>
-        </div>
-        <div class="container">
-            <button type="button" class="btn">
-                <h2 id="RobotoLight">Titles in Roboto (hella light)</h2>
-                <p id="Roboto">Bodies in regular Roboto</p>
-            </button>
-        </div>
-        <div class="container">
-            <button type="button" class="btn">
-                <h2 id="Inconsolata-dz">Inconsolata-dz, all the way through</h2>
-                <p id="Inconsolata-dz">This is my editor font!</p>
-            </button>
-        </div>
-        <div class="container">
-            <button type="button" class="btn">
-                <h2 id="Proxima">Titles in Proxima Nova</h2>
-                <p id="Georgia">Bodies in Georgia</p>
-            </button>
-        </div>
-
-        <!--<p id="Lato">
-            Lato
-        </p>
-        <p id="Inconsolata" value="Inconsolata">
-            Inconsolata (my editor font) (sort of)
-        </p>
-        <p id="Impact" value="Impact">
-            Impact
-        </p>
-        <p id="Comic" value="Comic Sans MS">
-            Comic Sans
-        </p>
+        <h1 align="center">Pick a font combo for your website experience.</h1>
+        <h3 align="center">These are some of my favorites.</h3>
         <br />
-        <h1 id="Header">Pick a body font</h1>
-        <p id="Lato">
-            Lato
-        </p>
-        <p id="Inconsolata" value="Inconsolata">
-            Inconsolata (my editor font) (sort of)
-        </p>
-        <p id="Impact" value="Impact">
-            Impact
-        </p>
-        <p id="Comic" value="Comic Sans MS">
-            Comic Sans
-        </p>-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div class="centerBlock">
+                        <button type="button" class="btn btn-primary btn-md outline" id="HG">
+                            <h4 id="Helvetica" >Titles in Helvetica Bold</h2>
+                            <p id="Garamond">Bodies in Garamond (a classic combo for the ages)</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="centerBlock">
+                    <div class="col-md-6 text-center">
+                        <button type="button" class="btn btn-primary btn-md outline" id="RR">
+                            <h4 id="RobotoLight">Titles in Roboto (hella light)</h2>
+                            <p id="Roboto">Bodies in regular Roboto</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <button type="button" class="btn btn-primary btn-md outline" id="Inc">
+                        <h4 id="Inconsolata-dz">Inconsolata-dz, all the way through</h2>
+                        <p id="Inconsolata-dz">This is my editor font!</p>
+                    </button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <button type="button" class="btn btn-primary btn-md outline" id="PG">
+                        <h4 id="Proxima">Titles in Proxima Nova</h2>
+                        <p id="Georgia">Bodies in Georgia</p>
+                    </button>
+                </div>
+            </div>
+        </div>
         <script src="js/script.js"></script>
     </body>
 </html>

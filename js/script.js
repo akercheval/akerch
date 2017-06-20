@@ -1,16 +1,24 @@
 $(document).ready(function() {
-    $("#Lato").click(function() {
-        localStorage.setItem("head", "Lato");
-        localStorage.setItem("body", "Inconsolata");
+    $("#HG").click(function() {
+        localStorage.setItem("head", "Helvetica");
+        localStorage.setItem("weight", "bold");
+        localStorage.setItem("body", "Garamond");
         window.location = "hello.html";
     });
-    $("#Inconsolata").click(function() {
-        $('#Header').css("font-family", "Inconsolata");
+    $("#RR").click(function() {
+        localStorage.setItem("head", "Roboto");
+        localStorage.setItem("weight", "100");
+        localStorage.setItem("body", "Roboto");
+        window.location = "hello.html";
     });
-    $("#Impact").click(function() {
-        $('#Header').css("font-family", "Impact");
+    $("#Inc").click(function() {
+        localStorage.setItem("head", "Inconsolata-dz");
+        localStorage.setItem("body", "Inconsolata-dz");
+        window.location = "hello.html";
     });
-    $("#Comic").click(function() {
-        $('#Header').css("font-family", "Comic Sans MS");
+    $("#PG").click(function() {
+        localStorage.setItem("head", "Proxima");
+        localStorage.setItem("body", "Georgia");
+        window.location = "hello.html";
     });
 });

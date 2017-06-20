@@ -10,6 +10,10 @@
     font-family: Proxima;
     src: url("Proxima.otf");
 }
+body {
+    background-color: #eeeeee;
+    color: #434343;
+}
 #Helvetica {
     font-family: "Helvetica";
     font-weight: bold;
@@ -33,4 +37,29 @@
 }
 #Georgia {
     font-family: "Georgia";
+}
+.btn.outline {
+    padding: 12px 22px;
+    background: none;
+    text-shadow: none;
+}
+.btn-primary.outline {
+	border: 2px solid #434343;
+	color: #434343;
+    background: #d9d9d9;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #d9d9d9;
+	border-color: #d9d9d9;
+    background: #434343;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	box-shadow: none;
+}
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
 }
