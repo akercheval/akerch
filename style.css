@@ -11,15 +11,23 @@
     src: url("Proxima.otf");
 }
 body {
-    margin: 100px;
     background-color: #eeeeee;
     color: #434343;
+}
+#me {
+    height: 30vh;
 }
 .Header {
     font-size: 50px;
 }
 .Body {
     font-size: 30px;
+}
+.Rest {
+    margin-top: 80px;
+}
+.Nav {
+    font-size: 20px;
 }
 #Helvetica {
     font-family: "Helvetica";

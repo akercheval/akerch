@@ -1,7 +1,9 @@
 $(document).ready(function() {
     $(".Header").css("font-family", localStorage.getItem("head"));
+    $(".Nav").css("font-family", localStorage.getItem("head"));
     if (localStorage.getItem("weight") != null) {
         $(".Header").css("font-weight", localStorage.getItem("weight"));
+        $(".Nav").css("font-weight", localStorage.getItem("weight"));
     }
     $(".Body").css("font-family", localStorage.getItem("body"));
     var dt = new Date($.now());
