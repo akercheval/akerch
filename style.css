@@ -10,10 +10,10 @@
     font-family: Proxima;
     src: url("Proxima.otf");
 }
-body {
+/*body {
     background-color: #eeeeee;
     color: #434343;
-}
+}*/
 #me {
     height: 30vh;
 }

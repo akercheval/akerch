@@ -1,4 +1,17 @@
 $(document).ready(function() {
+    var dt = new Date($.now());
+    hour = dt.getHours();
+    if ((0 <= hour && hour < 5) || (19 <= hour && hour <= 24)) {
+        $("body").css("background-color", "#434343");
+        $("body").css("color", "#eeeeee");
+        $(".btn").css("color", "#d9d9d9");
+        $(".btn").css("background", "#434343");
+        $(".btn:hover").css("color", "#434343");
+        $(".btn:hover").css("background", "#d9d9d9");
+    } else {
+        $("body").css("background-color", "#eeeeee");
+        $("body").css("color", "#434343");
+    }
     $("#HG").click(function() {
         localStorage.setItem("head", "Helvetica");
         localStorage.setItem("weight", "bold");

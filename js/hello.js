@@ -11,9 +11,15 @@ $(document).ready(function() {
     hour = dt.getHours();
     if ((0 <= hour && hour < 5) || (19 <= hour && hour <= 24)) {
         $("#Welcome").html("Good evening!");
+        $("body").css("background-color", "#434343");
+        $("body").css("color", "#eeeeee");
     } else if (5 <= hour && hour < 12) {
         $("#Welcome").html("Good morning!");
+        $("body").css("background-color", "#eeeeee");
+        $("body").css("color", "#434343");
     } else {
         $("#Welcome").html("Good afternoon!");
+        $("body").css("background-color", "#eeeeee");
+        $("body").css("color", "#434343");
     }
 });
