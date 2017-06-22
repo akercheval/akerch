@@ -6,6 +6,7 @@ $(document).ready(function() {
         $(".Nav").css("font-weight", localStorage.getItem("weight"));
     }
     $(".Body").css("font-family", localStorage.getItem("body"));
+    $("p").css("font-family", localStorage.getItem("body"));
     var dt = new Date($.now());
     hour = dt.getHours();
     if ((0 <= hour && hour < 5) || (19 <= hour && hour <= 24)) {
