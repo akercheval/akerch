@@ -1,10 +1,8 @@
-from flask import Flask
-from flask_frozen import Freezer
+from flask import Flask, url_for
 import requests
 
 app = Flask(__name__)
 @app.route("/<word>")
-
 def genderMe(word):
     headers = {"Accept": "application/json", "app_id": "5eb6d713", "app_key": "330c94ccd9813cfb8e40ecf9196992f8"}
     url = "https://od-api.oxforddictionaries.com:443/api/v1/entries/es/" + word
