@@ -6,16 +6,31 @@ function makeCall(e){
         dataType: "xml",
         success: function (data) {
             if ($(data).find("fl").length == 0) {
-                $("h1").text("Not a word!");
+                $("h1").text("That's not a word!");
             } else {
-                var answer = ($(data).find("fl")[0].textContent);
-                if (answer.includes("masculine")) {
-                    $("h1").text("Masculine");
-                } else if (answer.includes("feminine")) {
-                    $("h1").text("Feminine");
-                } else {
-                    $("h1").text("That's not a noun!");
+                for (i = 0; i < $(data).find("fl").length; i++) {
+                    var answer = ($(data).find("fl")[i].textContent);
+                    var gender = null;
+                    if (answer.includes("masculine")) {
+                        gender = "Masculine";
+                        break;
+                    } else if (answer.includes("feminine")) {
+                        gender = "Feminine";
+                        break;
+                    } else if (answer == "noun") {
+                        if (myWord.charAt(myWord.length - 1) == 'o') {
+                            gender = "Masculine";
+                            break;
+                        } else {
+                            gender = "Feminine";
+                            break;
+                        }
+                    }
                 }
+                if (gender == null) {
+                    gender = "That's not a noun!";
+                }
+                $("h1").text(gender);
             }
         }
     });
