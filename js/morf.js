@@ -22,8 +22,11 @@ function makeCall(e){
                         if (myWord.charAt(myWord.length - 1) == 'o') {
                             gender = "Masculine";
                             break;
-                        } else {
+                        } else if (myWord.charAt(myWord.length - 1) == 'a') {
                             gender = "Feminine";
+                            break;
+                        } else {
+                            gender = "That word goes either way! Have fun, champ."
                             break;
                         }
                     }
