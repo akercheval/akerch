@@ -10,7 +10,6 @@ function makeCall(e){
             } else {
                 for (i = 0; i < $(data).find("fl").length; i++) {
                     var answer = ($(data).find("fl")[i].textContent);
-                    console.log(answer);
                     var gender = null;
                     if (answer.includes("masculine")) {
                         gender = "Masculine";
