@@ -33,7 +33,7 @@ function makeCall(e){
                 if (gender == null) {
                     gender = "That's not a noun!";
                 }
-                $("h1").text(gender);
+                $("h1").hide().text(gender).fadeIn();
             }
         }
     });
