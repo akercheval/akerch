@@ -2,13 +2,15 @@ $(document).ready(function() {
     var dt = new Date($.now());
     hour = dt.getHours();
     if ((0 <= hour && hour < 5) || (19 <= hour && hour <= 24)) {
+        // dark mode
         $("body").css("background-color", "#434343");
         $("body").css("color", "#eeeeee");
-        $(".btn").css("color", "#d9d9d9");
-        $(".btn").css("background", "#434343");
-        $(".btn:hover").css("color", "#434343");
-        $(".btn:hover").css("background", "#d9d9d9");
+        $(".btn").css("color", "#434343");
+        $(".btn").css("background", "#d9d9d9");
+        $(".btn:hover").css("color", "#d9d9d9");
+        $(".btn:hover").css("background", "#434343");
     } else {
+        // light mode
         $("body").css("background-color", "#eeeeee");
         $("body").css("color", "#434343");
     }
