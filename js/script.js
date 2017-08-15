@@ -13,7 +13,7 @@ $(document).ready(function() {
         $("body").css("color", "#434343");
     }
     $("#HG").click(function() {
-        localStorage.setItem("head", "Helvetica");
+        localStorage.setItem("head", "HelveticaBold");
         localStorage.setItem("weight", "bold");
         localStorage.setItem("body", "Garamond");
         window.location = "hello.html";

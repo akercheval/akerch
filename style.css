@@ -1,6 +1,6 @@
 @font-face {
     font-family: HelveticaBold;
-    src: url("HelveticaBold.ttf");
+    src: url("HelveticaBold.otf");
 }
 @font-face {
     font-family: Inconsolata-dz;
@@ -26,8 +26,7 @@
     font-size: 20px;
 }
 #Helvetica {
-    font-family: "Helvetica";
-    font-weight: bold;
+    font-family: "HelveticaBold";
 }
 #Garamond {
     font-family: "Garamond";
