@@ -59,34 +59,40 @@ a:hover {
     text-decoration: none;
     color: magenta;
 }
-.btn.outline {
-    padding: 12px 22px;
-    background: none;
-    text-shadow: none;
-}
-.btn-primary.outline {
-	border: 2px solid #434343;
-	color: #434343;
-    background: #d9d9d9;
-}
-.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-	color: #d9d9d9;
-	border-color: #d9d9d9;
-    background: #434343;
-}
-.btn-primary.outline:active, .btn-primary.outline.active {
-	box-shadow: none;
-}
-.btn {
-    padding: 14px 24px;
-    border: 0 none;
-    transition: all 0.3s ease 0s;
-}
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
-}
+
 .bottom-align-text {
   position: absolute;
   bottom: 5vh;
   right: 5vw;
+}
+
+html,body {
+  padding:0;
+  margin:0;
+  height:100%;
+  min-height:100%;
+ }
+
+.quarter-left{
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quarter-right{
+    width: 50%;
+    height: 50%;
+    float: right;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quarter-right:hover, .quarter-left:hover {
+    border-style: solid;
+    border-color: magenta;
 }
