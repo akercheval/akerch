@@ -49,7 +49,10 @@ a:hover {
   background-color: #383847;
   color: #64908A;
 }
-
+html, body {
+  background-color: #383847;
+  color: #64908A;
+ }
  h1 {
    font-size: 150px;
    margin: 5%;
