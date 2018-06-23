@@ -6,8 +6,7 @@
     font-family: MyGaramond;
     src: url("AGaramondPro-Regular.otf");
 }
-@font-face {
-    font-family: Iosevka;
+@font-face { font-family: Iosevka;
     src: url("iosevka.ttf");
 }
 @font-face {
@@ -56,12 +55,10 @@
     font-family: "Iosevka";
 }
 a {
-    color: #64908A;
-    text-decoration: none;
+    fill: #383847;
 }
 a:hover {
-    text-decoration: none;
-    color: #E8CAA4;
+    fill: #64908A;
 }
 #body {
   background-color: #383847;
@@ -87,4 +84,18 @@ html, body {
   position: absolute;
   bottom: 5vh;
   right: 5vw;
+}
+
+#clock {
+fill: #64908A;
+display: block;
+margin: auto;
+}
+#face { stroke-width: 0px;}
+/* clock face outline */
+#ticks { stroke-width: 0.3px; stroke: #E8CAA4; fill: #E8CAA4; }
+/* lines that mark each hour */
+#hourhand {
+font-family: Helvetica; font-size: 4.5px; stroke-width: 0.2px; 
+stroke: #E8CAA4; fill: #E8CAA4;
 }
