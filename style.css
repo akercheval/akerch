@@ -3,6 +3,14 @@
     src: url("HelveticaBold.otf");
 }
 @font-face {
+    font-family: MyGaramond;
+    src: url("AGaramondPro-Regular.otf");
+}
+@font-face {
+    font-family: Iosevka;
+    src: url("iosevka.ttf");
+}
+@font-face {
     font-family: Inconsolata-dz;
     src: url("Inconsolata-dz.otf");
 }
@@ -14,11 +22,18 @@
     font-family: Georgia;
     src: url("georgia.otf");
 }
+@font-face {
+    font-family: Mononoki;
+    src: url("mononoki.ttf");
+}
 #Helvetica {
     font-family: "HelveticaBold";
 }
+#Mononoki {
+    font-family: "Mononoki";
+}
 #Garamond {
-    font-family: "Garamond";
+    font-family: "MyGaramond";
 }
 #RobotoLight {
     font-family: "Roboto";
@@ -36,6 +51,9 @@
 }
 #Georgia {
     font-family: "Georgia";
+}
+#Iosevka {
+    font-family: "Iosevka";
 }
 a {
     color: #64908A;
