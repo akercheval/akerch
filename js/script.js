@@ -3,28 +3,28 @@ $(document).keypress(function(event){
   var keycode = (event.keyCode ? event.keyCode : event.which);
   switch(keycode) {
     case 50: // 2
-      $("#Helvetica").css("font-family", "MyGaramond");
+      $("#name").css("font-family", "MyGaramond");
       break;
     case 51: // 3
-      $("#Helvetica").css("font-family", "Roboto");
+      $("#name").css("font-family", "Roboto");
       break;
     case 52: // 4
-      $("#Helvetica").css("font-family", "Inconsolata-dz");
+      $("#name").css("font-family", "Inconsolata-dz");
       break;
     case 53: // 5
-      $("#Helvetica").css("font-family", "Proxima");
+      $("#name").css("font-family", "Proxima");
       break;
     case 54: // 6
-      $("#Helvetica").css("font-family", "Georgia");
+      $("#name").css("font-family", "Georgia");
       break;
     case 55: // 7
-      $("#Helvetica").css("font-family", "Iosevka");
+      $("#name").css("font-family", "HelveticaBold");
       break;
     case 56: // 8
-      $("#Helvetica").css("font-family", "Mononoki");
+      $("#name").css("font-family", "Mononoki");
       break;
     default: // 1, or other
-      $("#Helvetica").css("font-family", "HelveticaBold");
+      $("#name").css("font-family", "Iosevka");
   }
 });
 $("#a").hover(function(){

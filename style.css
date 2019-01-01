@@ -26,8 +26,8 @@
     font-family: Mononoki;
     src: url("mononoki.ttf");
 }
-#Helvetica {
-    font-family: "HelveticaBold";
+#name {
+    font-family: "Iosevka";
 }
 #Mononoki {
     font-family: "Mononoki";
@@ -56,30 +56,30 @@
     font-family: "Iosevka";
 }
 a {
-    color: #64908A;
+    color: #4AA29C;
     text-decoration: none;
 }
 a:hover {
     text-decoration: none;
-    color: #E8CAA4;
+    color: #D3343A;
 }
 #body {
-  background-color: #383847;
-  color: #64908A;
+  background-color: #D0D5BE;
+  color: #4AA29C;
 }
 html, body {
-  background-color: #383847;
-  color: #64908A;
+  background-color: #D0D5BE;
+  color: #4AA29C;
  }
  h1 {
-   font-size: 150px;
+   font-size: 200px;
    margin: 5%;
  }
  .littleHint {
    position: absolute;
    bottom: 0;
    right: 0;
-   color: #E8CAA4;
+   color: #D3343A;
    margin: 5%;
    font-size: 20px;
  }
