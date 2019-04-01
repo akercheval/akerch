@@ -1,90 +1,43 @@
 @font-face {
-    font-family: HelveticaBold;
-    src: url("HelveticaBold.otf");
-}
-@font-face {
-    font-family: MyGaramond;
-    src: url("AGaramondPro-Regular.otf");
-}
-@font-face {
-    font-family: Iosevka;
-    src: url("iosevka.ttf");
-}
-@font-face {
-    font-family: Inconsolata-dz;
-    src: url("Inconsolata-dz.otf");
-}
-@font-face {
-    font-family: Proxima;
-    src: url("Proxima.otf");
-}
-@font-face {
-    font-family: Georgia;
-    src: url("georgia.otf");
-}
-@font-face {
-    font-family: Mononoki;
-    src: url("mononoki.ttf");
-}
-#name {
-    font-family: "Iosevka";
-}
-#Mononoki {
-    font-family: "Mononoki";
-}
-#Garamond {
-    font-family: "MyGaramond";
-}
-#RobotoLight {
-    font-family: "Roboto";
-    font-weight: 100;
-}
-#Roboto {
-    font-family: "Roboto";
-    font-weight: 500;
-}
-#Inconsolata-dz {
-    font-family: "Inconsolata-dz";
-}
-#Proxima {
-    font-family: "Proxima";
-}
-#Georgia {
-    font-family: "Georgia";
-}
-#Iosevka {
-    font-family: "Iosevka";
-}
-a {
-    color: #4AA29C;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-    color: #D3343A;
-}
-#body {
-  background-color: #D0D5BE;
-  color: #4AA29C;
+    font-family: Helvetica;
+    src: url("fonts/HelveticaBold.otf");
 }
 html, body {
-  background-color: #D0D5BE;
-  color: #4AA29C;
- }
- h1 {
-   font-size: 200px;
-   margin: 5%;
- }
- .littleHint {
-   position: absolute;
-   bottom: 0;
-   right: 0;
-   color: #D3343A;
-   margin: 5%;
-   font-size: 20px;
- }
- .bottom-align-text {
-  position: absolute;
-  bottom: 5vh;
-  right: 5vw;
+    background-color: #64908A;
+    color: #383847
+}
+#adam {
+    font-family: Helvetica;
+    font-size: 150px;
+    margin: 0%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display:inline-block;
+}
+#adam:hover {
+    color: rgb(181, 151, 424);
+}
+#ross {
+    font-family: Helvetica;
+    font-size: 150px;
+    margin: 0%;
+    margin-left: 5%;
+    display:inline-block;
+}
+#ross:hover {
+    color: rgb(193, 98, 126);
+}
+#kerc {
+    font-family: Helvetica;
+    font-size: 150px;
+    margin: 0%;
+    margin-left: 5%;
+    display:inline-block;
+}
+#kerc:hover {
+    color: rgb(181, 151, 424);
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
