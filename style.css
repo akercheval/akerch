@@ -41,3 +41,14 @@ a {
     color: inherit;
     text-decoration: inherit;
 }
+#other {
+    font-family: Helvetica;
+    font-size: 50px;
+    margin: 0%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display:inline-block;
+}
+#other:hover {
+    color: rgb(181, 151, 424);
+}
